@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">S Media Link</string>
+
+    <string name="title_top_rated">Top Rated</string>
+    <string name="title_popular">Popular</string>
+
+    <string name="menu_fragment_videos_top_rated">Show top rated</string>
+    <string name="menu_fragment_videos_popular">Show popular</string>
+
+    <string name="text_title">Title: %s</string>
+    <string name="text_rating">Rating: %s</string>
+    <string name="text_date">Release date: %s</string>
+
+    <string name="text_lorem_ipsum_long">Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit
+        esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </string>
+    <string name="text_lorem_ipsum_huge">Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit
+        esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit
+        esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit
+        esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit
+        esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </string>
+    <string name="text_lorem_ipsum_short">Lorem ipsum</string>
+
+    <string name="dialog_message_no_internet_connection">No internet connection</string>
+    <string name="dialog_action_ok">@string/ok</string>
+    <string name="dialog_action_cancel">@string/cancel</string>
+    <string name="dialog_error_title">Sorry</string>
+    <string name="dialog_message_internet_permission_error">
+        Please, grant internet permission to continue work with application.
+    </string>
+
+    <string name="ok">Ok</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="text_continue">Continue</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="back">Back</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="done">Done</string>
+    <string name="revert">Revert</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="open">Open</string>
+    <string name="download">Download</string>
+    <string name="submit">Submit</string>
+    <string name="remove">Remove</string>
+</resources>
