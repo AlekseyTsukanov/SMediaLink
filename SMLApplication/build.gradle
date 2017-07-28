@@ -30,9 +30,9 @@ android {
             keyPassword "android"
         }
         release {
-            storeFile file("../debug.keystore")
+            storeFile file("../release.jks")
             storePassword "android"
-            keyAlias "androiddebugkey"
+            keyAlias "android"
             keyPassword "android"
         }
     }
@@ -44,7 +44,7 @@ android {
             signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             ext.enableCrashlytics = false
-            project.ext.set("archivesBaseName", "Build-" + defaultConfig.versionName);
+            project.ext.set("archivesBaseName", "Build-SML-" + defaultConfig.versionName);
         }
         debug {
             minifyEnabled false
@@ -52,13 +52,25 @@ android {
             signingConfig signingConfigs.debug
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             ext.enableCrashlytics = false
-            project.ext.set("archivesBaseName", "Build-" + defaultConfig.versionName);
+            project.ext.set("archivesBaseName", "Build-SML-" + defaultConfig.versionName);
         }
     }
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    flavorDimensions "dimension"
+    productFlavors {
+        prod {
+            applicationId "com.acukanov.sml"
+            dimension "dimension"
+        }
+        dev  {
+            applicationId "com.acukanov.sml"
+            dimension "dimension"
+        }
     }
 
     packagingOptions {
